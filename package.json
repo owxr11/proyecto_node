@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev --workspaces=@ecommerce/api",
+    "start": "npm run start --workspaces=@ecommerce/api",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "private": "true",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "workspaces": [
+    "apps/api",
+    "packages/contracts",
+    "packages/config",
+    "packages/shared"
+  ],
+  "engines": {
+    "node": ">=24"
+  }
+}
