@@ -17,3 +17,10 @@ build/
 
 # Service account
 apps/api/secrets
+
+#.nuxt
+apps/web/.nuxt
+apps/web/.output
+apps/web/dist
+app/web/node_modules
+
