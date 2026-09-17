@@ -12,5 +12,8 @@ const transport =
     })
 
 export const logger = pino({
-    level: env.LOG_LEVEL
+    level: env.LOG_LEVEL,
+    serializers: {
+        err: pino.stdSerializers.err
+    }
 }, transport)

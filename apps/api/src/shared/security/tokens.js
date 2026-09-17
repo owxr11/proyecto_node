@@ -19,7 +19,7 @@ export function verifyAcessToken(token) {
 }
 
 export function verifyRefreshToken(token) {
-    return jwt.verify(token, authConfig.refreshSecretSecret)
+    return jwt.verify(token, authConfig.refreshSecret)
 }
 
 export function hashToken(token) {

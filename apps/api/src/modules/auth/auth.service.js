@@ -11,7 +11,7 @@ function issuesTokens(user) {
     }
     return {
         accessToken: signAccessToken(payload),
-        refresh: signRefreshToken(payload)
+        refreshToken: signRefreshToken(payload)
     }
 }
 

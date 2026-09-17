@@ -654,7 +654,7 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "apiBaseUrl": "http://localhost:3000/api/v1"
+    "apiBaseUrl": "http://localhost:4050/api/v1"
   },
   "icon": {
     "serverKnownCssClasses": []
@@ -2183,15 +2183,15 @@ _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1da7c-SoovBF69rIYh79XCiw/L1icb7cM\"",
-    "mtime": "2026-09-14T14:30:11.549Z",
+    "etag": "\"1da7c-eR2BXNFoH8hA0JSOwy1SQRNgGBM\"",
+    "mtime": "2026-09-17T02:37:48.609Z",
     "size": 121468,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
     "etag": "\"746d0-4tvS8XNDhsdlUjQvTuTocxhoytY\"",
-    "mtime": "2026-09-14T14:30:11.549Z",
+    "mtime": "2026-09-17T02:37:48.609Z",
     "size": 476880,
     "path": "index.mjs.map"
   }

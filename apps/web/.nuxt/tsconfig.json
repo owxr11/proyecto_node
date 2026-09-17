@@ -92,7 +92,7 @@
         "../../../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        "../../../node_modules/vue-router"
+        "../node_modules/vue-router"
       ],
       "#unhead/composables": [
         "../../../node_modules/nuxt/dist/head/runtime/composables"
