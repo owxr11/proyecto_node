@@ -19,11 +19,10 @@ import {
 import { asyncHandler } from '../../shared/middleware/async-handler.js'
 import { validate } from '../../shared/middleware/validate.middleware.js'
 import { authorize } from '../../shared/middleware/authorize.middleware.js'
-//import { authenticate } from '../../shared/middleware/authenticate.middleware.js'
+// import { authenticate } from '../../shared/middleware/authenticate.middleware.js'
 
 const router = Router()
 
-// Rutas Publicas
 router.get(
     '/',
     validate(listProductsSchema),
@@ -35,7 +34,6 @@ router.get(
     validate(getProductSchema),
     asyncHandler(getProduct)
 )
-
 // Rutas Administrativas
 router.post(
     '/',
